@@ -32,8 +32,10 @@
                     <div class="slider__content">
                         <h4 class="slider__slide-title">Our History</h4>
                         <p class="slider__slide-text">Since 1920 we have built and sustained a proud reputation of timber engineering and design excellence over the past 100 years. Our close family values have remained ever present since day one. </p>
-                        <a href="#" class="slider__slide-button button--outline">find out more</a>
+                        <a href="#" class="slider__slide-button button--outline"><span></span>find out more</a>
                     </div>
+
+                    <img class="slider__background-leaf" src="<?= get_template_directory_uri() . '/resources/img/leaf.png' ?>" alt="">
                 </div>
 
                 <img class="slider__slide-icon"  src="<?= get_template_directory_uri() . '/resources/img/100-years-icon.svg'  ?>" alt="Over 100 years of timber engineering">
@@ -58,8 +60,10 @@
                     <div class="slider__content">
                         <h4 class="slider__slide-title">Our History</h4>
                         <p class="slider__slide-text">Since 1920 we have built and sustained a proud reputation of timber engineering and design excellence over the past 100 years. Our close family values have remained ever present since day one. </p>
-                        <a href="#" class="slider__slide-button button--outline">find out more</a>
+                        <a href="#" class="slider__slide-button button--outline"><span></span>find out more</a>
                     </div>
+
+                    <img class="slider__background-leaf" src="<?= get_template_directory_uri() . '/resources/img/leaf.png' ?>" alt="">
                 </div>
 
                 <img class="slider__slide-icon"  src="<?= get_template_directory_uri() . '/resources/img/100-years-icon.svg'  ?>" alt="Over 100 years of timber engineering">
@@ -84,8 +88,10 @@
                     <div class="slider__content">
                         <h4 class="slider__slide-title">Our History</h4>
                         <p class="slider__slide-text">Since 1920 we have built and sustained a proud reputation of timber engineering and design excellence over the past 100 years. Our close family values have remained ever present since day one. </p>
-                        <a href="#" class="slider__slide-button button--outline">find out more</a>
+                        <a href="#" class="slider__slide-button button--outline"><span></span>find out more</a>
                     </div>
+
+                    <img class="slider__background-leaf" src="<?= get_template_directory_uri() . '/resources/img/leaf.png' ?>" alt="">
                 </div>
 
                 <img class="slider__slide-icon"  src="<?= get_template_directory_uri() . '/resources/img/100-years-icon.svg'  ?>" alt="Over 100 years of timber engineering">
@@ -110,14 +116,14 @@
                     <div class="slider__content">
                         <h4 class="slider__slide-title">Our History</h4>
                         <p class="slider__slide-text">Since 1920 we have built and sustained a proud reputation of timber engineering and design excellence over the past 100 years. Our close family values have remained ever present since day one. </p>
-                        <a href="#" class="slider__slide-button button--outline">find out more</a>
+                        <a href="#" class="slider__slide-button button--outline"><span></span>find out more</a>
                     </div>
+
+                    <img class="slider__background-leaf" src="<?= get_template_directory_uri() . '/resources/img/leaf.png' ?>" alt="">
                 </div>
 
                 <img class="slider__slide-icon"  src="<?= get_template_directory_uri() . '/resources/img/100-years-icon.svg'  ?>" alt="Over 100 years of timber engineering">
             </div>
         </div>
-
-        <img class="slider__background-leaf" src="<?= get_template_directory_uri() . '/resources/img/leaf.png' ?>" alt="">
     </div>
 </div>

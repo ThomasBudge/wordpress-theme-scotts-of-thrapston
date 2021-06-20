@@ -3,7 +3,7 @@
         <div class="video__content">
             <h2 class="video__title" data-aos="fade-up" data-aos-duration="1500">Family comes first</h2>
             <p class="video__text" data-aos="fade-up" data-aos-duration="1500">Scotts of Thrapston are a widely recognised family owned business based in the heart of the Midlands for over 100 years. Everything we do is engrained with passion and quality. From the unparalleled level of craftsmanship and attention to detail that goes into creating our stunning and innovative outdoor timber building solutions right through to the honest and friendly way we treat each and every valued customer as if they were a member of our very own Scott’s family.</p>
-            <a class="video__button button" data-aos="fade-up" data-aos-duration="1500" href="#">about us</a>
+            <a class="video__button button" data-aos="fade-up" data-aos-duration="1500" href="#"><span></span>about us</a>
 
             <img class="video__icon" data-aos="fade" data-aos-duration="2000" src="<?= get_template_directory_uri() . '/resources/img/100-years-primary-icon.svg' ?>" alt="100 Years of Timber Experience">
             <img class="video__leaf rellax" data-rellax-speed="1" src="<?= get_template_directory_uri() . '/resources/img/leaf-vertical.png' ?>" alt="">

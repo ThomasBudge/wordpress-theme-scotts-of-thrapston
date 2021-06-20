@@ -29,7 +29,7 @@
 						<p class="footer__form-text">Sign up for future updates, offers and latest news. View our <a href="#">privacy policy</a>.</p>
 						<form action="" class="footer__form flex">
 							<input type="email" placeholder="Email Address*">
-							<button type="submit" class="button--outline">Sign up</button>
+							<button type="submit" class="button--outline"><span></span>Sign up</button>
 						</form>
 					</div>
 

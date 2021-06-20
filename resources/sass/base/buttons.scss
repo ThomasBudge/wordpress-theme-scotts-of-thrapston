@@ -2,9 +2,30 @@
     padding: 15px 20px;
     color: #FFF;
     background-color: $COLOR_PRIMARY;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
 
     &:visited, &:active {
         color: #FFF;
+    }
+
+    &:hover {
+        span {
+            width: 150%;
+        }
+    }
+
+    span {
+        transition-duration: .4s;
+        position: absolute;
+        width: 30px;
+        height: 150px;
+        background-color: $COLOR_SECONDARY;
+        z-index: -1;
+        left: -45px;
+        top: -27px;
+        transform: rotate(160deg); 
     }
 }
 
@@ -18,8 +39,11 @@
     }
 
     &:hover {
-        background-color: #FFF;
         color: $COLOR_PRIMARY;
         border-color: #FFF;
+    }
+
+    span {
+        background-color: #FFF;
     }
 }

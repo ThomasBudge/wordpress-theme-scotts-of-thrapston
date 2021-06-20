@@ -4,7 +4,7 @@
  * 
  */
 import Swiper  from 'swiper'
-Swiper.use([])
+// Swiper.use([])
 
 class Slider {
     constructor (element) {

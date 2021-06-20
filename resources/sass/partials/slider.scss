@@ -53,6 +53,8 @@
         position: relative;
         opacity: 0;
         left: 100px;
+        z-index: 2;
+        position: relative;
     }
 
     &__slide-title {
@@ -73,13 +75,12 @@
 
     &__swiper {
         width: 100%;
-        position: relative;
     }
 
     &__slide {
+        z-index: 10;
         position: relative;
         padding-bottom: 100px;
-        z-index: 3;
 
         &.animating {
             .slider__image {
