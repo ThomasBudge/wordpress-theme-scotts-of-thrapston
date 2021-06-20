@@ -1,0 +1,29 @@
+form {
+    input[type="email"] {
+        @include appearance(none);
+        border: 1px solid #706F6F;
+        border-radius: 0;
+        font-weight: $WEIGHT_LIGHT;
+        padding: 6px 10px;
+
+        &::placeholder {
+            color: #706F6F;
+            font-size: 14px;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        @include appearance(none);
+        outline: none;
+        border-radius: 0;
+        background-color: transparent;
+
+        &:hover {
+            outline: none;
+        }
+    }
+}

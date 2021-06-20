@@ -1,0 +1,220 @@
+.footer {
+    background-color: #38785E;
+    color: #FFF;
+    padding: 60px 0 180px 0;
+    position: relative;
+
+    p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    a {
+        color: #FFF;
+        font-size: 13px;
+        font-weight: $WEIGHT_LIGHT;
+    }
+
+    &__column {
+        position: relative;
+        z-index: 1;
+
+        &--first {
+            width: 45%;
+            padding-right: 79px;
+        }
+    }
+
+    &__row {
+        position: relative;
+        z-index: 1;
+
+        &:last-child {
+            margin-top: 25px;
+        }
+    }
+
+    &__logo {
+        margin-right: 40px;
+        width: 118px;
+        height: 91px;
+    }
+
+    &__address {
+        margin-top: 60px;
+        font-weight: $WEIGHT_LIGHT;
+    }
+
+    &__about {
+        font-weight: $WEIGHT_LIGHT;
+    }
+
+    &__form {
+        input {
+            width: 278px;
+            margin-right: 15px;
+        }
+
+        button {
+            width: 180px;
+        }
+    }
+
+    &__form-text {
+        font-size: 13px;
+        margin-bottom: 12px;
+        font-weight: $WEIGHT_MEDIUM;
+        letter-spacing: 0;
+
+        a {
+            text-decoration: underline;
+            color: #FFF;
+            font-weight: $WEIGHT_MEDIUM;
+        }
+    }
+
+    &__menu {
+        padding-right: 60px;
+
+        ul {
+            margin: 0;
+        }
+
+        .menu-item-has-children {
+            margin-bottom: 20px;
+    
+            &:first {
+                margin-bottom: 12px;
+            }
+        }
+
+        li {
+            &.menu-item-has-children > a{
+                max-width: 180px;
+                font-weight: $WEIGHT_MEDIUM;
+            }
+        }
+
+        a {
+            color: #FFF;
+            font-weight: $WEIGHT_LIGHT;
+            margin-bottom: 6px;
+            display: block;
+            font-size: 13px;
+        }
+    }
+
+    &__contact {
+        @include justify-content(space-between);
+        max-width: 600px;
+    }
+
+    &__social-icon {
+        text-align: center;
+        width: 25px;
+        position: relative;
+
+        svg {
+            z-index: 1;
+            position: relative;
+        }
+
+        &:after {
+            content: '';
+            width: 1px; 
+            height: 1px;
+            display: block;
+            border-radius: 50%;
+            top: 30%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            position: absolute;
+            transition-duration: 400ms;
+        }
+
+        &:hover {
+            &:after {
+                transform: scale(25);
+            }
+        }
+
+        &--linkedin {
+            &:after {
+                background-color: #007bb6;
+            }
+        }
+
+        &--pinterest {
+            &:after {
+                background-color: #cb2027;
+            }
+        }
+
+        &--facebook {
+            &:after {
+                background-color: #3b5998;
+            }
+        }
+
+        &--twitter {
+            &:after {
+                background-color: #00aced;
+            }
+        }
+
+        &--instagram {
+            &:after {
+                background-color: #517fa4;
+            }
+        }
+    }
+
+    &__image {
+        mix-blend-mode: screen;
+        position: absolute;
+        bottom: -55px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 0;
+    }
+}
+
+.copyright {
+    @include justify-content(space-between);
+    padding: 27px 15px;
+    background-color: #FFF;
+
+    &__content, &__brave {
+        @include flexbox;
+        font-size: 12px;
+        margin: 0;
+        font-weight: $WEIGHT_LIGHT;
+
+        p, a {
+            color: #706F6F;
+            margin: 0;
+        }
+
+        a {
+            transition-duration: 400ms;
+
+            &:hover {
+                color: $COLOR_SECONDARY;    
+            }
+        }
+    }
+
+    &__brave {
+        a {
+            font-weight: $WEIGHT_MEDIUM;
+        }
+    }
+
+    span.seporator {
+        margin: 0 6px;
+    }
+}

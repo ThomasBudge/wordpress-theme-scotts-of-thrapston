@@ -1,0 +1,21 @@
+@import 'mixins/mixins';
+
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/buttons';
+@import 'base/form';
+
+@import 'helpers/helpers';
+@import 'helpers/animations';
+
+@import 'partials/header';
+@import 'partials/hero';
+@import 'partials/infobar';
+@import 'partials/banner';
+@import 'partials/slider';
+@import 'partials/video';
+@import 'partials/footer';
+
+@import '../../node_modules/swiper/swiper.scss';
+@import '../../node_modules/aos/src/sass/aos';

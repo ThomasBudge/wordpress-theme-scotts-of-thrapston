@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400&display=swap');
+
+html, body, p, a, span, form, input, button {
+    font-family: $FONT_BODY;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $FONT_HEADING;
+    letter-spacing: 1px;
+    font-weight: 400;
+}

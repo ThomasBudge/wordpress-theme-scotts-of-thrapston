@@ -1,0 +1,25 @@
+.button {
+    padding: 15px 20px;
+    color: #FFF;
+    background-color: $COLOR_PRIMARY;
+
+    &:visited, &:active {
+        color: #FFF;
+    }
+}
+
+.button--outline {
+    @extend .button;
+    border: 2px solid #FFF;
+    background-color: transparent;
+
+    &:active, &:visited {
+        color: #FFF;
+    }
+
+    &:hover {
+        background-color: #FFF;
+        color: $COLOR_PRIMARY;
+        border-color: #FFF;
+    }
+}

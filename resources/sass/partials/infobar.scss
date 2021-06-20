@@ -1,0 +1,23 @@
+.infobar {
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+    background-color: $COLOR_PRIMARY;
+    color: #FFF;
+    text-align: center;
+    height: 47px;
+
+    &__info {
+        @include flexbox;
+        @include align-items(center);
+    }
+
+    svg {
+        margin-right: 5px;
+    }
+
+    p {
+        margin: 0;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,13 @@
+.container {
+    @include flexbox;
+    width: 100%;
+    max-width: $CONTAINER; 
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.flex {
+    @include flexbox;
+}
