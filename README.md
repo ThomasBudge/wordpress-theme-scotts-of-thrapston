@@ -1,5 +1,7 @@
 # Technical Test: Scotts of Thrapston 
 
+Note: Best viewed at 1400px.
+
 ## Advanced Custom Fields Usage
 - Global Options for the logo in the header
 - Template fields for the hero content
